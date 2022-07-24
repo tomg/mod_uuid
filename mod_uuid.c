@@ -1,6 +1,7 @@
 #include <uuid/uuid.h>
 #include "httpd.h"
 #include "http_config.h"
+#include "http_protocol.h"
 
 static int generate_uuid(request_rec *r)
 {
